@@ -1,0 +1,96 @@
+/* Root vars */
+:root {
+    /* Sizes */
+    --size-0: 0rem;
+    --size-1: 0.25rem;
+    --size-2: 0.5rem;
+    --size-3: 1rem;
+    --size-4: 1.5rem;
+    --size-5: 3rem;
+
+    /* 100% and 50% opacity colors */
+    --primary-100: #0d6efd;
+    --primary-50: rgba(13, 110, 253, 0.5);
+    --secondary-100: #6c757d;
+    --secondary-50: rgba(108, 117, 125, 0.5);
+    --success-100: #198754;
+    --success-50: rgba(25, 135, 84, 0.5);
+    --info-100: #0dcaf0;
+    --info-50: rgba(13, 202, 240, 0.5);
+    --warning-100: #ffc107;
+    --warning-50: rgba(255, 193, 7, 0.5);
+    --danger-100: #dc3545;
+    --danger-50: rgba(220, 53, 69, 0.5);
+
+    /* Bootstrap var rewrites */
+    --bs-light: #ebecf0;
+    --bs-dark: #343a40;
+}
+
+/* Radius (global) */
+.radius-0 { border-radius: var(--size-0); }
+.radius-1 { border-radius: var(--size-1); }
+.radius-2 { border-radius: var(--size-2); }
+.radius-3 { border-radius: var(--size-3); }
+.radius-4 { border-radius: var(--size-4); }
+.radius-5 { border-radius: var(--size-5); }
+
+/* Radius Top Start Corner */
+.radius-ts-0 { border-top-left-radius: var(--size-0); }
+.radius-ts-1 { border-top-left-radius: var(--size-1); }
+.radius-ts-2 { border-top-left-radius: var(--size-2); }
+.radius-ts-3 { border-top-left-radius: var(--size-3); }
+.radius-ts-4 { border-top-left-radius: var(--size-4); }
+.radius-ts-5 { border-top-left-radius: var(--size-5); }
+
+/* Radius Top End Corner */
+.radius-te-0 { border-top-right-radius: var(--size-0); }
+.radius-te-1 { border-top-right-radius: var(--size-1); }
+.radius-te-2 { border-top-right-radius: var(--size-2); }
+.radius-te-3 { border-top-right-radius: var(--size-3); }
+.radius-te-4 { border-top-right-radius: var(--size-4); }
+.radius-te-5 { border-top-right-radius: var(--size-5); }
+
+/* Radius Bottom Start Corner */
+.radius-bs-0 { border-bottom-left-radius: var(--size-0); }
+.radius-bs-1 { border-bottom-left-radius: var(--size-1); }
+.radius-bs-2 { border-bottom-left-radius: var(--size-2); }
+.radius-bs-3 { border-bottom-left-radius: var(--size-3); }
+.radius-bs-4 { border-bottom-left-radius: var(--size-4); }
+.radius-bs-5 { border-bottom-left-radius: var(--size-5); }
+
+/* Radius Bottom End Corner */
+.radius-be-0 { border-bottom-right-radius: var(--size-0); }
+.radius-be-1 { border-bottom-right-radius: var(--size-1); }
+.radius-be-2 { border-bottom-right-radius: var(--size-2); }
+.radius-be-3 { border-bottom-right-radius: var(--size-3); }
+.radius-be-4 { border-bottom-right-radius: var(--size-4); }
+.radius-be-5 { border-bottom-right-radius: var(--size-5); }
+
+
+/* Focus Color (for .form-control) */
+.form-control.focus-primary:focus,      .form-select.focus-primary:focus    { border-color: var(--primary-100);     box-shadow: 0 0 0px 2px var(--primary-50);      }
+.form-control.focus-secondary:focus,    .form-select.focus-secondary:focus  { border-color: var(--secondary-100);   box-shadow: 0 0 0px 2px var(--secondary-50);    }
+.form-control.focus-success:focus,      .form-select.focus-success:focus    { border-color: var(--success-100);     box-shadow: 0 0 0px 2px var(--success-50);      }
+.form-control.focus-info:focus,         .form-select.focus-info:focus       { border-color: var(--info-100);        box-shadow: 0 0 0px 2px var(--info-50);         }
+.form-control.focus-warning:focus,      .form-select.focus-warning:focus    { border-color: var(--warning-100);     box-shadow: 0 0 0px 2px var(--warning-50);      }
+.form-control.focus-danger:focus,       .form-select.focus-danger:focus     { border-color: var(--danger-100);      box-shadow: 0 0 0px 2px var(--danger-50);       }
+
+/* Focus Color (for .input-group and .btn-group) */
+.input-group.focus-primary:focus-within,      .btn-group.focus-primary:focus-within    { box-shadow: 0 0 0px 2px var(--primary-50);      }
+.input-group.focus-secondary:focus-within,    .btn-group.focus-secondary:focus-within  { box-shadow: 0 0 0px 2px var(--secondary-50);    }
+.input-group.focus-success:focus-within,      .btn-group.focus-success:focus-within    { box-shadow: 0 0 0px 2px var(--success-50);      }
+.input-group.focus-info:focus-within,         .btn-group.focus-info:focus-within       { box-shadow: 0 0 0px 2px var(--info-50);         }
+.input-group.focus-warning:focus-within,      .btn-group.focus-warning:focus-within    { box-shadow: 0 0 0px 2px var(--warning-50);      }
+.input-group.focus-danger:focus-within,       .btn-group.focus-danger:focus-within     { box-shadow: 0 0 0px 2px var(--danger-50);       }
+
+/* Focus Color (for .btn) */
+/* TODO Não sei se funciona com btns dentro de btn-groups */
+/* ! TESTAR .btn-group.focus-primary > .btn.focus-warning */
+.btn.focus-primary:focus    { box-shadow: 0 0 0px 2px var(--primary-50);      }
+.btn.focus-secondary:focus  { box-shadow: 0 0 0px 2px var(--secondary-50);    }
+.btn.focus-success:focus    { box-shadow: 0 0 0px 2px var(--success-50);      }
+.btn.focus-info:focus       { box-shadow: 0 0 0px 2px var(--info-50);         }
+.btn.focus-warning:focus    { box-shadow: 0 0 0px 2px var(--warning-50);      }
+.btn.focus-danger:focus     { box-shadow: 0 0 0px 2px var(--danger-50);       }
+
