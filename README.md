@@ -37,7 +37,7 @@ For consistency with Bootstrap's spacing utilities, the size of the radius is th
 
 ## Individual Corner Radius
 
-Bootstrap has a special nomenclature for each of an element's sides. This file uses those names in our acronyms, and works just like the `margin` and `padding` utilities.
+Bootstrap has a special nomenclature for each of an element's sides. This file uses those names in its' acronyms, and works just like the `margin` and `padding` utilities.
 To recap: Top, Bottom, Start and End are the names of each side of an element. Therefore, the corners are named after a mix of the two sides they belong to. For example, the top left corner's name is `ts`, which stands for `top` and `start`.
 
 Here are the different corners explicitly:
@@ -45,6 +45,7 @@ Here are the different corners explicitly:
 - `radius-te-X`;
 - `radius-bs-X`;
 - `radius-be-X`;
+
 Where `X` is a number from 0 to 5.
 
 ## Focus Colors
