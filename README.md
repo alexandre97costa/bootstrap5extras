@@ -9,7 +9,7 @@ A few extra functionalities to add on top of the standard Bootstrap 5 template s
 ## Using a CDN
 You can copy this line into your html document, and place it *below* the Bootstrap's CSS 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/alexandre97costa/bootstrap5extras/main.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre97costa/bootstrap5extras/main.min.css" integrity="sha384-1AgpaGraxmZfUSv85Q1IoegydxJx90MTIkT3Bo6Lum0u8uE9EoJtQn/vCuHOOwfb" crossorigin="anonymous">
 ```
 
 ## Use it locally
