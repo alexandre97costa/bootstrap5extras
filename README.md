@@ -11,10 +11,11 @@ You can copy this line into your html document, and place it *below* the Bootstr
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexandre97costa/bootstrap5extras/main.min.css" integrity="sha384-1AgpaGraxmZfUSv85Q1IoegydxJx90MTIkT3Bo6Lum0u8uE9EoJtQn/vCuHOOwfb" crossorigin="anonymous">
 ```
+You might encounter some problems with this code's integrity attribute. My recommendation is to go to `https://www.srihash.org/` and paste `https://cdn.jsdelivr.net/gh/alexandre97costa/bootstrap5extras/main.min.css` there. It will generate the appropriate hash and link tag.
 
 ## Use it locally
 
-You can also download the `main.css` file from this repo and place it in your project's files.
+You can also download the `main.css` file from this repo and place it in your project's files. Remember to rename it and place it after bootstrap's css and before your own.
 
 
 # Documentation
