@@ -29,16 +29,16 @@ Here is some basic documentation explaining how everything works. Bootstrap5extr
 
 Use the class `radius-` followed by a number from 0 to 5 to make the element have an increasingly bigger border radius. 
 For consistency with Bootstrap's spacing utilities, the size of the radius is the same as the standard spacing for margin and padding:
-- `radius-0` had a border radius of `0em`;
-- `radius-1` had a border radius of `0.25em`;
-- `radius-2` had a border radius of `0.5em`;
-- `radius-3` had a border radius of `1em`;
-- `radius-4` had a border radius of `1.5em`;
-- `radius-5` had a border radius of `3em`;
+- `radius-0` has a border radius of `0em`;
+- `radius-1` has a border radius of `0.25em`;
+- `radius-2` has a border radius of `0.5em`;
+- `radius-3` has a border radius of `1em`;
+- `radius-4` has a border radius of `1.5em`;
+- `radius-5` has a border radius of `3em`;
 
 ## Individual Corner Radius
 
-Bootstrap has a special nomenclature for each of an element's sides. This file uses those names in its' acronyms, and works just like the `margin` and `padding` utilities.
+This file uses the same names in its' acronyms as Bootstrap (top, bottom, start, end), and works just like the `margin` and `padding` utilities.
 To recap: Top, Bottom, Start and End are the names of each side of an element. Therefore, the corners are named after a mix of the two sides they belong to. For example, the top left corner's name is `ts`, which stands for `top` and `start`.
 
 Here are the different corners explicitly:
